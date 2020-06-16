@@ -29,7 +29,7 @@ Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
     (We will provide you Eagle file after we checked connection later.)  
  ![kamera](https://user-images.githubusercontent.com/25577099/84721669-26ecff80-afbc-11ea-8783-c3d461decee9.jpg)  
 **・LEPTON shutters are fragile and may come off during use(attach or detach many time) , so it is recommended to protect them with wrap.**  
-**・Be careful about static electricity with it.  
+**・Be careful about static electricity with it.**  
 # 3. Program installation method**
 ## A. OS installation
 **・Connect the keyboard, mouse and display to the Raspberry PI**  
@@ -90,5 +90,5 @@ sudo raspi-config
 ・Check the iP address of the iPhone and start the PI application.**  
 Launch the Thermal Cam 3X app.  
 # 4. Other  
-**・The PI should ideally be equipped with a small display, but after setting up, the keyboard, display and mouse are not required.  
-・Automatic connection is possible if each user devises a script. ** 
+**・The PI should ideally be equipped with a small display, but after setting up, the keyboard, display and mouse are not required.**  
+**・Automatic connection is possible if each user devises a script. ** 
