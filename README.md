@@ -41,8 +41,10 @@ Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
    <http://ftp.jaist.ac.jp/pub/raspberrypi/raspbian/images/raspbian-2019-04-09/>  
    Other countries.  
    <https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/>  
+     
    ![rasbian](https://user-images.githubusercontent.com/25577099/84721084-c4473400-afba-11ea-89e5-f181531891e1.jpg)
    Copy to SD card (about 16Gb) and perform normal installation work  
+     
      
 
 **・When Rasbian starts**  
