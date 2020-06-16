@@ -13,15 +13,15 @@ Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
 ![read](https://user-images.githubusercontent.com/25577099/84721612-091f9a80-afbc-11ea-8097-ab7de078429b.jpg)
 # 2.connection between Raspberry PI and breakout Board.  
 ![kessen](https://user-images.githubusercontent.com/25577099/84721065-babdcc00-afba-11ea-8d83-2f832e3afe4f.jpg)  
-LEPTON---PI
-CS-----24(CE0)  
-MOSI---19(MOSI)  
-MISO---21(MISO)  
-CLK----23(SCLK)  
-GND----6(GND)  
-VIN----1(3.3V)  
-SDA----3(SDA1)  
-SCL----5(SCL1)  
+|LEPTON||PI|
+|CS||24(CE0)|
+|MOSI||19(MOSI)|
+|MISO||21(MISO)|
+|CLK||23(SCLK)|
+|GND||6(GND)|
+|VIN||1(3.3V)|
+|SDA||3(SDA1)|
+|SCL||5(SCL1)|
 ・ Make the cable as short as possible.  
      For stability, we recommend connect via printed circuit board instead of wiring to the board.
     (We will provide you Eagle file after we checked connection later.)  
