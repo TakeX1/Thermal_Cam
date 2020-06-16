@@ -2,9 +2,9 @@
 This program is exclusively for Raspberry PI 3 Model B+ to run our iOS app "Thermal Cam3X".
 Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
 # 1. Hardware
-#####・Raspberry PI3 (does not work on PI4)  
-#####・Flir Lepton3.5 (only for LEPTON3.5, for for LEPTON3.0 or the others)  
-#####・Flir Lepton Breakout Board (one of the following two types is required)  
+*・Raspberry PI3 (does not work on PI4)*  
+・Flir Lepton3.5 (only for LEPTON3.5, for for LEPTON3.0 or the others)  
+・Flir Lepton Breakout Board (one of the following two types is required)  
 <https://www.flir.com/products/lepton-breakout-board-v2.0/>  
 ![flir](https://user-images.githubusercontent.com/25577099/84721033-a4177500-afba-11ea-8921-5f939b39d5f5.jpg)
 <https://store.groupgets.com/collections/flir-lepton-accessories/products/purethermal-breakout-board>  
