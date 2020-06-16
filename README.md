@@ -22,7 +22,8 @@ Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
 | GND     | 6(GND)   | 
 | VIN     | 1(3.3V)  | 
 | SDA     | 3(SDA1)  | 
-| SCL     | 5(SCL1)  | 
+| SCL     | 5(SCL1)  |  
+
 ・ Make the cable as short as possible.  
      For stability, we recommend connect via printed circuit board instead of wiring to the board.
     (We will provide you Eagle file after we checked connection later.)  
