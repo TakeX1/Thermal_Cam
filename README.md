@@ -5,18 +5,28 @@ Temperature accuracy can be improved by using Raspberry PI 3 Model B+.
 # 1. Hardware
 ・Raspberry PI3 (does not work on PI4)
 ・Flir Lepton3.5 (only for LEPTON3.5, for for LEPTON3.0 or the others)
-・Flir Lepton Breakout Board (one of the following two types is required)
+・Flir Lepton Breakout Board (one of the following two types is required)  
 <https://www.flir.com/products/lepton-breakout-board-v2.0/>  
 ![flir](https://user-images.githubusercontent.com/25577099/84721033-a4177500-afba-11ea-8921-5f939b39d5f5.jpg)
 <https://store.groupgets.com/collections/flir-lepton-accessories/products/purethermal-breakout-board>  
 ![gloup](https://user-images.githubusercontent.com/25577099/84721037-a7aafc00-afba-11ea-86e8-06d332ebd8c5.jpg)
-・8 jumper wires (Please match the outlet to your own environment)
-[read.pdf](https://github.com/TakeX1/Thermal_Cam/files/4783789/read.pdf)
+・8 jumper wires (Please match the outlet to your own environment)  
+![read](https://user-images.githubusercontent.com/25577099/84721612-091f9a80-afbc-11ea-8097-ab7de078429b.jpg)
 # 2.connection between Raspberry PI and breakout Board.
+![kessen](https://user-images.githubusercontent.com/25577099/84721065-babdcc00-afba-11ea-8d83-2f832e3afe4f.jpg)
+LEPTON     PI  
+CS—-----24(CE0)  
+MOSI—---19(MOSI)  
+MISO—---21(MISO)  
+CLK—----23(SCLK)  
+GND—----6(GND)  
+VIN—----1(3.3V)  
+SDA----—3(SDA1)  
+SCL----—5(SCL1)  
 ・ Make the cable as short as possible.  
      For stability, we recommend connect via printed circuit board instead of wiring to the board.
     (We will provide you Eagle file after we checked connection later.)  
-PastedGraphic-2.png  
+![kamera](https://user-images.githubusercontent.com/25577099/84721669-26ecff80-afbc-11ea-8783-c3d461decee9.jpg)
 ・LEPTON shutters are fragile and may come off during use(attach or detach many time) , so it is recommended 
    to protect them with wrap.  
 ・Be careful about static electricity with it.  
@@ -31,7 +41,7 @@ In Japan.(mirror server)
 <http://ftp.jaist.ac.jp/pub/raspberrypi/raspbian/images/raspbian-2019-04-09/>  
 Other countries.  
 <https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/>  
-
+![rasbian](https://user-images.githubusercontent.com/25577099/84721084-c4473400-afba-11ea-89e5-f181531891e1.jpg)
 Copy to SD card (about 16Gb) and perform normal installation work  
 ・When Rasbian starts  
     Turn on i2c, ssh, and spi, and set GPU memory to 128Mb.  
@@ -62,7 +72,7 @@ make -j4
 
 #### (4) Operation check  
 After compilation is complete, Your_Openframeworks_Folder/apps/myApps/ PI_Lepton3.X/bin/ PI_Lepton3.X xxx.xxx.xxx.xxx(IP address)
-
+![gazo](https://user-images.githubusercontent.com/25577099/84721096-ce693280-afba-11ea-89bd-48af76ee922b.jpg)
 Try to start the program with. xxx.xxx.xxx.xxx is the IP address of iPhone or iPad.
 Check the iPhone or iPad iP address in "Settings". When the LEPTON image is displayed on the screen, you are ready.
 
