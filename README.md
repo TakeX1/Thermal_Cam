@@ -91,4 +91,4 @@ sudo raspi-config
 Launch the Thermal Cam 3X app.  
 # 4. Other  
 **・The PI should ideally be equipped with a small display, but after setting up, the keyboard, display and mouse are not required.**  
-**・Automatic connection is possible if each user devises a script. ** 
+**・Automatic connection is possible if each user devises a script.**  
